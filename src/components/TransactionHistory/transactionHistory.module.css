@@ -1,0 +1,27 @@
+.transactionHistory {
+  width: 720px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+}
+
+.table__head {
+  padding: 20px;
+  background-color: rgb(0, 114, 114);
+  text-transform: uppercase;
+  color: white;
+}
+
+.transactionHistory__cell {
+  padding: 20px;
+  text-align: center;
+}
+
+.transactionHistory__cell:first-child {
+  text-transform: capitalize;
+}
+
+.transactionHistory__row:nth-child(even) {
+  background-color: lightgray;
+}
